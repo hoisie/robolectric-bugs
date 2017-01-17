@@ -25,7 +25,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:support-v4:25.0.0'
     testCompile 'junit:junit:4.12'
     testCompile 'org.robolectric:robolectric:3.3-SNAPSHOT'
     testCompile 'org.khronos:opengl-api:gl1.1-android-2.1_r1'
+    testCompile "com.google.truth:truth:0.31"
 }
