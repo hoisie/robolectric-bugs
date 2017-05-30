@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "24.0.0"
+    buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.hoisie.robobugs"
         minSdkVersion 21
@@ -26,6 +26,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.0'
     testCompile 'junit:junit:4.12'
-    testCompile 'org.robolectric:robolectric:3.3.2'
+    testCompile 'org.robolectric:robolectric:3.4-rc2'
     testCompile 'org.khronos:opengl-api:gl1.1-android-2.1_r1'
 }
