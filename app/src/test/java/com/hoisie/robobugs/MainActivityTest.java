@@ -12,7 +12,7 @@ import org.robolectric.annotation.Config;
 import org.robolectric.annotation.SQLiteMode;
 
 @RunWith(RobolectricTestRunner.class)
-@Config(sdk = 30)
+@Config(sdk = 35)
 public class MainActivityTest {
   @Test
   public void testMainActivity() throws Exception {
